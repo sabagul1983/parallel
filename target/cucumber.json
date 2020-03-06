@@ -1,0 +1,1636 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6943967322,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Filter by review and add to trolley",
+        "description": "",
+        "id": "filter;filter-by-review-and-add-to-trolley",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 740441988,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7636684887,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"philips iron\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "philips iron",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4540681057,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"3or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021647585,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add an item \"Philips GC4532/26 Azur Steam Iron\" to trolley",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Philips GC4532/26 Azur Steam Iron",
+                  "offset": 15
+                }
+              ],
+              "location": "TrolleySteps.iAddAnItemToTrolley(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6324998138,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see product in trolley",
+            "match": {
+              "location": "TrolleySteps.i_should_be_able_to_see_product_in_trolley()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@addToTrolleyAfterFilter"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers and add items to my trolley\nSo that i can buy desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "addToTrolley.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@addToTrolley"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5367273297,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Filter by review and add to trolley",
+        "description": "",
+        "id": "filter;filter-by-review-and-add-to-trolley",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 378775284,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6193351106,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2602309384,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"3or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2349269450,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add an item to trolley",
+            "match": {
+              "location": "TrolleySteps.i_add_an_item_to_trolley()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5226438681,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see product in trolley",
+            "match": {
+              "location": "TrolleySteps.i_should_be_able_to_see_product_in_trolley()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1274194145,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to change quantity to \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 40
+                }
+              ],
+              "location": "TrolleySteps.iShouldBeAbleToChangeQuantityTo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2045010555,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to see total price",
+            "match": {
+              "location": "TrolleySteps.iShouldBeAbleToSeeTotalPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44765061,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see total price in trolley",
+            "match": {
+              "location": "TrolleySteps.iShouldBeAbleToSeeTotalPriceInTrolley()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 541153259,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to enter postocode\"E7 8NW\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E7 8NW",
+                  "offset": 36
+                }
+              ],
+              "location": "TrolleySteps.iShouldBeAbleToEnterPostocodeInSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1996246402,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select a store of my choice",
+            "match": {
+              "location": "TrolleySteps.iSelectAStoreOfMyChoice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6267625723,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I continue with collection",
+            "match": {
+              "location": "TrolleySteps.iContinueWithCollection()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@addToTrolleyBookItem"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers and add items to my trolley\nSo that i can buy desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "addTrolleyBookItem.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@addToTrolley"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6436500795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Filter by review and add to trolley",
+        "description": "",
+        "id": "filter;filter-by-review-and-add-to-trolley;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 344229152,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5571409175,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7646614488,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"4or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2969366491,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add an item to trolley",
+            "match": {
+              "location": "TrolleySteps.i_add_an_item_to_trolley()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5892806971,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see product in trolley",
+            "match": {
+              "location": "TrolleySteps.i_should_be_able_to_see_product_in_trolley()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2727665569,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to change quantity to \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 40
+                }
+              ],
+              "location": "TrolleySteps.iShouldBeAbleToChangeQuantityTo(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031523684,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to see total price",
+            "match": {
+              "location": "TrolleySteps.iShouldBeAbleToSeeTotalPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47194131,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see total price in trolley",
+            "match": {
+              "location": "TrolleySteps.iShouldBeAbleToSeeTotalPriceInTrolley()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628717304,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to enter postocode\"IG11 6AU\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IG11 6AU",
+                  "offset": 36
+                }
+              ],
+              "location": "TrolleySteps.iShouldBeAbleToEnterPostocodeInSearch(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1470729522,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select a store of my choice",
+            "match": {
+              "location": "TrolleySteps.iSelectAStoreOfMyChoice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6131234320,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I continue with collection",
+            "match": {
+              "location": "TrolleySteps.iContinueWithCollection()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@addToTrolley"
+          },
+          {
+            "line": 7,
+            "name": "@addToTrolleyBookItemScenarioOutline"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6443766188,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Filter by review and add to trolley",
+        "description": "",
+        "id": "filter;filter-by-review-and-add-to-trolley;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 302488006,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3867732431,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5404031182,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"3or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2368814329,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add an item to trolley",
+            "match": {
+              "location": "TrolleySteps.i_add_an_item_to_trolley()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5085542348,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see product in trolley",
+            "match": {
+              "location": "TrolleySteps.i_should_be_able_to_see_product_in_trolley()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2052842377,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to change quantity to \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 40
+                }
+              ],
+              "location": "TrolleySteps.iShouldBeAbleToChangeQuantityTo(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2033061838,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to see total price",
+            "match": {
+              "location": "TrolleySteps.iShouldBeAbleToSeeTotalPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69485283,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see total price in trolley",
+            "match": {
+              "location": "TrolleySteps.iShouldBeAbleToSeeTotalPriceInTrolley()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614126486,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to enter postocode\"E7 8NW\" in search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E7 8NW",
+                  "offset": 36
+                }
+              ],
+              "location": "TrolleySteps.iShouldBeAbleToEnterPostocodeInSearch(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1394655583,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select a store of my choice",
+            "match": {
+              "location": "TrolleySteps.iSelectAStoreOfMyChoice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6139356674,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I continue with collection",
+            "match": {
+              "location": "TrolleySteps.iContinueWithCollection()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@addToTrolley"
+          },
+          {
+            "line": 7,
+            "name": "@addToTrolleyBookItemScenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers and add items to my trolley\nSo that i can buy desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "bookItemsByScenarioOutline.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@addToTrolley"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5876911475,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Filter by review",
+        "description": "",
+        "id": "filter;filter-by-review;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 450199437,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9622957550,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4903866859,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply price review \"£10 - £15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10 - £15",
+                  "offset": 22
+                }
+              ],
+              "location": "FilterSteps.i_apply_price_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see products in price range",
+            "match": {
+              "location": "FilterSteps.i_should_be_able_to_see_products_in_price_range()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByPrice"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6731871887,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Filter by review",
+        "description": "",
+        "id": "filter;filter-by-review;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1012813599,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5034052138,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5504996707,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply price review \"£20 - £25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£20 - £25",
+                  "offset": 22
+                }
+              ],
+              "location": "FilterSteps.i_apply_price_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23512,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see products in price range",
+            "match": {
+              "location": "FilterSteps.i_should_be_able_to_see_products_in_price_range()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByPrice"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6210483816,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Filter by review",
+        "description": "",
+        "id": "filter;filter-by-review;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 639328532,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10008771499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adidas",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3065464092,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply price review \"£10 - £15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10 - £15",
+                  "offset": 22
+                }
+              ],
+              "location": "FilterSteps.i_apply_price_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27455,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see products in price range",
+            "match": {
+              "location": "FilterSteps.i_should_be_able_to_see_products_in_price_range()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByPrice"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers\nSo that i can find desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "filterByPrice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@filter"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7259679655,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Filter by review",
+        "description": "",
+        "id": "filter;filter-by-review;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 439555233,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2565992016,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7721706018,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply price review \"£10 - £15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£10 - £15",
+                  "offset": 22
+                }
+              ],
+              "location": "FilterSteps.i_apply_price_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3637401453,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I apply filter review \"3or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39099,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see products in price range",
+            "match": {
+              "location": "FilterSteps.i_should_be_able_to_see_products_in_price_range()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByPriceAndByRating"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7504598333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Filter by review",
+        "description": "",
+        "id": "filter;filter-by-review;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 579049576,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9217753408,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4666716505,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply price review \"£20 - £30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£20 - £30",
+                  "offset": 22
+                }
+              ],
+              "location": "FilterSteps.i_apply_price_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 899535359,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I apply filter review \"2or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22870,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to see products in price range",
+            "match": {
+              "location": "FilterSteps.i_should_be_able_to_see_products_in_price_range()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByPriceAndByRating"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers\nSo that i can find desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "filterByPriceAndByRating.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@filter"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7747143562,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Filter by review",
+        "description": "",
+        "id": "filter;filter-by-review",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 685149505,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1591806726,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7789303524,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"3or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4204805369,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see product rating \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 40
+                }
+              ],
+              "location": "FilterSteps.i_should_be_able_to_see_product_rating(double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          },
+          {
+            "line": 7,
+            "name": "@manual"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers\nSo that i can find desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "filterByRating.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@filter"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6603592057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Filter by review with examples",
+        "description": "",
+        "id": "filter;filter-by-review-with-examples;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 911434504,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10094516986,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5132795566,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"3or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3337477879,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see product rating \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 40
+                }
+              ],
+              "location": "FilterSteps.i_should_be_able_to_see_product_rating(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByCustomerRating"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6083583286,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Filter by review with examples",
+        "description": "",
+        "id": "filter;filter-by-review-with-examples;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 499926861,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CommonSteps.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8469216108,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for product \"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 22
+                }
+              ],
+              "location": "CommonSteps.i_search_for_product(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5328135476,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I apply filter review \"4or more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4or more",
+                  "offset": 23
+                }
+              ],
+              "location": "FilterSteps.i_apply_filter_review(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4182447796,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see product rating \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 40
+                }
+              ],
+              "location": "FilterSteps.i_should_be_able_to_see_product_rating(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@filterByCustomerRating"
+          },
+          {
+            "line": 1,
+            "name": "@filter"
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As an end user\nI want to apply filers\nSo that i can find desired product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "filterRatingExamples.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@filter"
+      }
+    ]
+  }
+]
